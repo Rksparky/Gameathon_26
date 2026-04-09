@@ -1329,7 +1329,7 @@ def main():
             # Celebration on win
             if state.particle_fx:
                 spawn_particles(state.particles, W//2, H//2, C["green"], count=40, spread=3.0, life=3.0)
-            state.shake_timer = 15002
+            state.shake_timer = 15
 
     # 🎮 Multiplayer move handler
     def mp_move(pid, dr, dc):
